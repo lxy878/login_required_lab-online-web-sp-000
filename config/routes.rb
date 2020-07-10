@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'sessions/create'
 
-  get 'sessions/destroy'
+  post 'sessions/destroy'
 
   get 'sessions/new'
 
