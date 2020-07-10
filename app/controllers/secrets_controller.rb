@@ -8,6 +8,6 @@ class SecretsController < ApplicationController
 
   private
     def require_login
-      return head(:forbidden) if !session.include? :name
+      return redirect_to sessions_new_path if !session.include? :name
     end
 end
