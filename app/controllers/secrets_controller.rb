@@ -1,5 +1,5 @@
 class SecretsController < ApplicationController
-  before_action 
+  before_action
   def index
   end
 
@@ -8,6 +8,6 @@ class SecretsController < ApplicationController
 
   private
     def require_login
-      
+
     end
 end
